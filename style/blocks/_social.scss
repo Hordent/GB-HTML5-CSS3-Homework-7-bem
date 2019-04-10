@@ -1,0 +1,27 @@
+.social {
+    background-color: $topColor;
+    padding: 8px 0;
+    width: 251px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    &__icon {
+        font-family: "socialIco";
+        font-size: 42px;
+        color: #1f1f1f;
+        line-height: 32px;              
+        display: block;
+        background-color: #fff;
+        border-radius: 50%;
+        justify-self: center;
+        align-self: center;
+        cursor: pointer;
+        
+        &:hover {
+            text-decoration: none;
+            color: #00acee;
+        }
+    }
+    
+}

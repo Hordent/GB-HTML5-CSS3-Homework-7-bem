@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Georgia Regular";
+  src: url(../../fonts/Georgia_Regular.ttf);
+}
+
+@font-face {
+  font-family: "SocialIco";
+  src: url(../../fonts/Socialico.ttf);
+}
+
+.social {
+  background-color: #81b300;
+  padding: 8px 0;
+  width: 251px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+.social__icon {
+  font-family: "socialIco";
+  font-size: 42px;
+  color: #1f1f1f;
+  line-height: 32px;
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.social__icon:hover {
+  text-decoration: none;
+  color: #00acee;
+}
+/*# sourceMappingURL=style.css.map */
